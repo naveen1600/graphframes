@@ -4,9 +4,7 @@ import gzip
 from pyspark.sql import SparkSession
 from graphframes import GraphFrame
 
-# =========================================================
-# 0. AUTO-DOWNLOAD DATASET
-# =========================================================
+# DOWNLOAD AND EXTRACT DATASET
 dataset_url = "https://snap.stanford.edu/data/wiki-Vote.txt.gz"
 gz_path = "wiki-Vote.txt.gz"
 txt_path = "wiki-Vote.txt"
