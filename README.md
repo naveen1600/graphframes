@@ -15,7 +15,7 @@ python3.11 -m venv spark311
 source spark311/bin/activate  # Linux/WSL
 ```
 
-### 3. Run the Pipeline
+### 2. Run the Pipeline
 ```bash
 spark-submit   --packages io.graphframes:graphframes-spark3_2.12:0.10.0   assignment3_part2.py
 ```
